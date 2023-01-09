@@ -1,0 +1,10 @@
+---
+# - hosts: proxmox
+#   become: yes
+#   tasks:
+#     - import_tasks: tasks/essential.yml
+
+- hosts: virtualmachines
+  become: yes
+  tasks:
+    - import_tasks: tasks/essential.yml

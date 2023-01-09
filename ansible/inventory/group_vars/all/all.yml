@@ -1,0 +1,5 @@
+tz: Europe/Amsterdam
+user: vcaldas
+service_user: homelab
+packages:
+  - vim

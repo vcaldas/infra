@@ -1,0 +1,15 @@
+haos_proxmox_api_password: "{{ tiamat_password }}"
+haos_proxmox_api_user: root@pam
+haos_proxmox_cores: 2
+haos_proxmox_description: "Home Assistant"
+haos_proxmox_mac_address: "" # If left empty a new one will be generated
+haos_proxmox_memory: 4096
+haos_proxmox_name: homeassistant
+haos_proxmox_node: tiamat
+haos_proxmox_onboot: true
+haos_proxmox_protection: true
+haos_proxmox_sockets: 1
+haos_proxmox_storage: local-lvm
+haos_proxmox_storage_interface: sata0
+haos_api_releases_url: "https://api.github.com/repos/home-assistant/operating-system/releases"
+haos_proxmox_scsihw: virtio-scsi-pci

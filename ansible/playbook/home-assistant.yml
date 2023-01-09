@@ -1,0 +1,6 @@
+---
+- name: Install home assistant
+  hosts: tiamat.home.arpa
+  become: yes
+  tasks:
+    - import_tasks: ../tasks/homeassistant.yml
